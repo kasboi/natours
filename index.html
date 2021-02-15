@@ -1,77 +1,414 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Natours | Exciting tours for adventurous people</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="bootstrap-3.4.1-dist\css\bootstrap.min.css">
-    <script src="bootstrap-3.4.1-dist\js\jquery-3.4.1.min.js"></script>
-    <script src="bootstrap-3.4.1-dist\js\bootstrap.min.js"></script>
-    <title>Project</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-static-top navbar-inverse">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Welcome</a>
-      </div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About us</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                </ul>
+            </nav>
+        </div>
 
-      <div id="navbar">
-        <ul class="nav navbar-nav">
-          <li><a href="boot_login.html">Sign-In</a></li>
-        </ul>
-      </div>
-    </div>
-    </nav>
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+            <div class="header__text-box">
+                <h1 class="primary-heading">
+                    <span class="primary-heading--main">Outdoors</span>
+                    <span class="primary-heading--sub">is where life happens</span>
+                </h1>
+                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+            </div>
+        </header>
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="secondary-heading">
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="tertiary-heading u-margin-bottom-small">
+                            you're going to fall in love with nature
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis laudantium quos placeat et saepe tempora odit dolores asperiores nesciunt rerum molestias illo excepturi, assumenda, magni qui dolore ab quas unde?
+                        </p>
+                        <h3 class="tertiary-heading u-margin-bottom-small">
+                            live adventures like you never before
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nisi exercitationem iste! Animi hic ad voluptate.
+                        </p>
 
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Coffee Lover Project</h1>
-        <p>Welcome to my Bootstrap Project: Coffee Lover</p>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h2>Pictures of Coffee</h2>
-      <div class="row">
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/04LDEYRW59.jpg" alt="Coffee Image">
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/90V03Q5Y60.jpg" alt="Coffee Image">
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/O83SF2RB6D.jpg" alt="Coffee Image">
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/5JVPSVP7EI.jpg" alt="Coffee Image">
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/C5Y10KIIHA.jpg" alt="Coffee Image">
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a href="#" class="thumbnail">
-            <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/YSSFRY5B25.jpg" alt="Coffee Image">
-          </a>
-        </div>
-      </div>
-    </div>
+                        <a href="#" class="btn-text">Link here &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="tertiary-heading u-margin-bottom-small">explore the world</h3>
+                            <p class="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nisi exercitationem iste!</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="tertiary-heading u-margin-bottom-small">meet nature</h3>
+                            <p class="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nisi exercitationem iste!</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="tertiary-heading u-margin-bottom-small">find your way</h3>
+                            <p class="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nisi exercitationem iste!</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="tertiary-heading u-margin-bottom-small">live a healthier life</h3>
+                            <p class="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nisi exercitationem iste!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-tours" id="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="secondary-heading">
+                        most popular tours
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">the sea explorer</span>                              
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>3 day tour</li>
+                                        <li>up to 30 people</li>
+                                        <li>2 tour guides</li>
+                                        <li>sleep in cozy hostels</li>
+                                        <li>Difficulty: very easy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">only</div>
+                                        <div class="card__price-value">$297</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">the forest hiker</span>                              
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>7 day tour</li>
+                                        <li>up to 40 people</li>
+                                        <li>6 tour guides</li>
+                                        <li>sleep in provided tents</li>
+                                        <li>Difficulty: medium</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">only</div>
+                                        <div class="card__price-value">$497</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">the snow adventurer</span>                              
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>5 day tour</li>
+                                        <li>up to 15 people</li>
+                                        <li>3 tour guides</li>
+                                        <li>sleep in provided tents</li>
+                                        <li>Difficulty: hard</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">only</div>
+                                        <div class="card__price-value">$897</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-big">
+                    <a href="#" class="btn btn--green">discover all tours</a>
+                </div>
+            </section>
+            <section class="section-stories">
+                <div class="bg-video">
+                    <video class="bg-video__content" loop autoplay muted>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser does not support video playback
+                    </video>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="secondary-heading">
+                        we make people genuinely happy
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/nat-8.jpg" alt="person on a tour" class="story__image">
+                            <figcaption class="story__caption">Mary Smith</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="tertiary-heading u-margin-bottom-small">i had the best week ever with my family</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui, libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/nat-9.jpg" alt="person on a tour" class="story__image">
+                            <figcaption class="story__caption">James Charles</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="tertiary-heading u-margin-bottom-small">WOW! my life is completely different</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui, libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-big">
+                    <a href="#" class="btn-text">Read all stories &rarr;</a>
+                </div>
+            </section>
+            <section class="section-booking">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
 
-  </body>
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="secondary-heading">
+                                        start booking now
+                                    </h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" required id="name" placeholder="Full Name">
+                                    <label for="name" class="form__label">Full Name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="email" class="form__input" required id="email" placeholder="Email">
+                                    <label for="email" class="form__label">Email Address</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <div class="form__group-radio">
+                                        <input type="radio" class="form__radio-input" id="small" name="size">                                       
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Small tour group
+                                        </label>
+                                    </div>
+                                    <div class="form__group-radio">
+                                        <input type="radio" class="form__radio-input" id="large" name="size">                                        
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Large tour group
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="u-margin-top-small">
+                                    <button class="btn btn--green">Next Step &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="../img/logo-green-2x.png" alt="full logo" class="footer__logo">
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__paragraph">
+                        Built by <a href="#" class="footer__link">JONAS SCHMEDTMANN</a> for his online course <a href="#" class="footer__link">ADVANCED CSS AND SASS</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="../img/nat-8.jpg" alt="Tour" class="popup__img">
+                    <img src="../img/nat-9.jpg" alt="Tour" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="secondary-heading u-margin-bottom-small">start booking now</h2>
+                    <h3 class="tertiary-heading u-margin-bottom-small">Important &dash; Please read these terms before applying</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta.
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Column 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Column 1 of 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Column 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Column 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Column 1 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Column 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Column 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Column 2 of 4
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-1-of-4">
+                    Column 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Column 3 of 4
+                </div>
+            </div>
+        </section> -->
+        
+    </body>
 </html>

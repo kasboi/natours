@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit; /* Just because :) */
+}
+
+html {
+/* converted 10px to a percentage based relative measurement for better accessibilty by dividing by 16px (Browser default) */
+    font-size: 62.5%;
+    @include responsive(tab-land) {
+        font-size: 56.25%;
+    }
+    @include responsive(tab-port) {
+        font-size: 50%;
+    }
+    @include responsive(big-desktop) {
+        font-size: 75%;
+    }
+
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: $color-grey;
+    padding: 2.5rem;
+    line-height: 1.7;
+    box-sizing: border-box;
+
+    @include responsive(tab-port) {
+        padding: 0;
+    }
+}

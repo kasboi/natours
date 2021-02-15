@@ -1,0 +1,70 @@
+.primary-heading {
+    text-transform: uppercase;
+    color: $color-white;
+    margin-bottom: 6rem;
+
+    &--main {
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        display: block;
+    
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
+        @include responsive(phone) {
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
+    
+    }
+
+    &--sub {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+        display: block;
+    
+        animation: moveInRight 1s ease-in;
+
+        @include responsive(phone) {
+            letter-spacing: .4rem;
+        }
+    }
+}
+
+.secondary-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $color-light-green, $color-dark-green);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all .2s;
+
+    @include responsive(tab-port) {
+        font-size: 2.5rem;
+    }
+    @include responsive(phone) {
+        font-size: 2rem;
+    }
+
+   &:hover {
+    transform: skewX(15deg) skewY(2deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+   }
+}
+.tertiary-heading {
+    font-size: $default-font;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.paragraph {
+    font-size: $default-font;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
